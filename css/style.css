@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Reddit-Sans;
+    src: url(../fonts/RedditSans-VariableFont_wght.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Reddit-Sans;
+}
+
