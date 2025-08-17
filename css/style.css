@@ -5,12 +5,6 @@
     src: url(../fonts/RedditSans-VariableFont_wght.ttf) format('truetype');
 }
 
-:root {
-    --color0: #000;
-    --color1: #fff;
-    --color2: #2980b9; 
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -18,71 +12,3 @@
     font-family: Reddit-Sans;
 }
 
-body {
-    background-color: var(--color0);
-}
-
-img {
-   width: 14px;
-}
-
-a {
-    color: var(--color2);
-    text-decoration: none;
-}
-
-h1, h3 {
-    color: #000;
-    font-weight: 500;
-}
-
-#container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#wrapper {
-    min-height: 650px;
-    width: 500px;
-    padding: 50px;
-    background-color: var(--color1)
-}
-
-#wrapper h1 {
-    font-size: 3.5em;
-    margin-top: 20px;
-    text-align: center;
-}
-
-#wrapper h3 {
-    font-size: 1.2em;
-    text-align: center;
-    margin-top: 10px;
-}
-
-#wrapper .sign-txt {
-    margin: 30px;
-    text-align: center;
-    color: #333;
-    font-size: 14px;
-}
-
-#wrapper form {
-    max-width: 320px;
-    width: 100%;
-    margin-top: 30px;
-}
-
-#wrapper form .input-group label {
-    display: flex;
-    align-items: center;
-    color: #333;
-    font-size: 14px;
-    font-weight: 700;
-}
-
-#wrapper form .input-group .error-msg {
-    display: none;
-}
