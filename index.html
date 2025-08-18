@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 </head>
 <body>
-    <div id="wrapper">
+    <div class="wrapper">
         <h1><strong>Hi there!</strong></h1>
         <h3>Welcome to PixlrX, so happy to see you!</h3>
         <div>Not yet member? <strong><a href="#">Signup now</a></strong></div>
@@ -20,9 +20,11 @@
                 <p class="erro-msg">Email can't be blank</p>
             </div>
             <div class="input-group">
-                <label for="ipassword">Password</label>
-                <input type="password" name="password" id="ipassword" placeholder="Enter password">
-                <i class="fa-solid fa-eye"></i>
+                <div class="input-area">
+                    <label for="ipassword">Password</label>
+                    <input type="password" name="password" id="ipassword" placeholder="Enter password">
+                    <i class="fa-solid fa-eye"></i>
+                </div>
                 <p class="error-msg">Password can't be blank</p>
             </div>
             <input type="submit" value="Login">
